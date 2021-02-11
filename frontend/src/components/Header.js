@@ -1,6 +1,6 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
-import { Navbar, Nav, Container, NavDropdown, Button } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -17,6 +17,9 @@ const Header = () => {
             </LinkContainer>
             <LinkContainer to="/login">
               <Nav.Link>Login</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/product">
+              <Nav.Link>Product</Nav.Link>
             </LinkContainer>
           </Nav>
         </Container>

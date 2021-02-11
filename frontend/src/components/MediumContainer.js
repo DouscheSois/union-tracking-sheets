@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-const SmallContainer = ({ children }) => {
+const MediumContainer = ({ children }) => {
   return (
     <Container>
       <Row className="justify-content-md-center">
-        <Col xs={12} md={6}>
+        <Col xs={12} md={12}>
           {children}
         </Col>
       </Row>
@@ -13,4 +13,4 @@ const SmallContainer = ({ children }) => {
   );
 };
 
-export default SmallContainer;
+export default MediumContainer;
