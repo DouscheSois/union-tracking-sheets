@@ -1,0 +1,4 @@
+1) Build the reducers and actions for the user login and registration.
+2) Install the required dependencies
+3) Build the Backend + connect to the MongoDB (doing #1 might make you do #3)
+4) Start building the project with all plugged in

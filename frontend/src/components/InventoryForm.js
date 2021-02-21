@@ -1,8 +1,6 @@
 import React from "react";
 import { Form, Col } from "react-bootstrap";
 
-import SmallContainer from "./SmallContainer";
-
 const InventoryForm = () => {
   return (
     <>
@@ -22,7 +20,7 @@ const InventoryForm = () => {
           <Form.Label>Measurement</Form.Label>
           <Form.Control as="select" defaultValue="Choose...">
             <option>ft</option>
-            <option>in</option>
+            <option>units</option>
           </Form.Control>
         </Form.Group>
 
