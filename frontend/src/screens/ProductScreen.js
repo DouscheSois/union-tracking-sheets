@@ -7,7 +7,11 @@ import ProjectList from "../components/ProjectList";
 
 const ProductScreen = () => {
   const listEntries = [
-    { _id: 1, project_name: "Testing", project_description: "Yes this is dog" },
+    {
+      _id: 1,
+      project_name: "Testing 1",
+      project_description: "Yes this is dog 1",
+    },
     {
       _id: 2,
       project_name: "Testing 2",
